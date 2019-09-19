@@ -1,0 +1,148 @@
+/*Font-include*/
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../font-family/OpenSans/OpenSans-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../font-family/OpenSans/OpenSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OpenSans-regular;
+    src: url(../font-family/OpenSans/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OpenSans-semibold;
+    src: url(../font-family/OpenSans/OpenSans-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: OpenSans-lightItalic;
+    src: url(../font-family/OpenSans/OpenSans-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: SegoePro-Italic;
+    src: url(../font-family/SegoePro/SegoePro-Italic.ttf) format("truetype");
+}
+
+/*font-classes*/
+.SegoePro-Italic {
+    font-family: SegoePro-Italic;
+}
+
+.openSans-light {
+    font-family: OpenSans-Light;
+}
+
+.openSans-bold {
+    font-family: OpenSans-Bold;
+}
+
+.openSans-reqular {
+    font-family: OpenSans-regular;
+}
+
+.openSans-semibold {
+    font-family: OpenSans-semibold;
+}
+
+/*font-sizes*/
+.font_14 {
+    font-size: 14px;
+}
+
+.font_52 {
+    font-size: 52px;
+}
+
+.font_17 {
+    font-size: 17px;
+}
+
+.font_20 {
+    font-size: 20px;
+}
+
+/*goble style*/
+body {
+    color: #fff !important;
+    background-color: #2957AE;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 0 25px;
+}
+
+a {
+    color: #fff !important;
+}
+
+.btn-style {
+    display: inline-block;
+    background-color: #2957AE;
+    padding: 15px 64px;
+    border-radius: 25px;
+}
+
+.btn-style-2 {
+    border: 2px solid #2957AE;
+    padding: 24px 49px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.btn-style-3 {
+    border: 2px solid #2B7EEC;
+    padding: 22px 39.5px 25px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/*goble style end*/
+/*header*/
+
+/*header-end*/
+/*First Section*/
+.circule-shape {
+    width: 233px;
+    height: 233px;
+    background-color: #223E73;
+    ;
+    border-radius: 100%;
+}
+
+.circule-shape div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit
+}
+
+.dot-circular {
+    width: 500px;
+    height: 500px;
+    border: 5px dotted #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*First Section end*/
